@@ -27860,6 +27860,6 @@ button,
 }
 @media (max-width: 768px) {
   .banner-player img {
-    width: 90%; /* increase size on mobile */
+    width: 190%; /* increase size on mobile */
   }
 }
