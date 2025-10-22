@@ -27858,3 +27858,8 @@ button,
     height: auto;
     object-fit: contain;
 }
+@media (max-width: 768px) {
+  .banner-player img {
+    width: 90%; /* increase size on mobile */
+  }
+}
