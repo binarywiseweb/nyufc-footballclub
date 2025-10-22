@@ -27846,3 +27846,15 @@ button,
 .binarywise-link:hover {
   color: #FF0000; /* optional hover effect */
 }
+.banner-player {
+    position: absolute;
+    right: 3%;
+    bottom: 0;
+    z-index: 2;
+}
+
+.banner-player img {
+    width: 45vw; /* makes image bigger on screen */
+    height: auto;
+    object-fit: contain;
+}
