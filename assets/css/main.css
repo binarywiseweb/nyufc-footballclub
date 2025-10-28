@@ -27931,6 +27931,7 @@ button,
 /* Hover color for all menu and submenu links */
 .nav__menu a:hover,
 .nav__menu .submenu a:hover {
-    color: #c41d2d;  /* Dark red hover */
+    color: #c41d2d !important;  /* Force hover color */
 }
+
 
