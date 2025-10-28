@@ -27915,3 +27915,22 @@ button,
 }
 
 
+
+/* Force submenu links to match main menu links */
+/* Main menu and submenu uniform style */
+/* Menu and Submenu links - unified style */
+/* Make submenu font same as main menu */
+/* Make submenu font same as main menu */
+.nav__menu a,
+.nav__menu .submenu a {
+   
+    font-size: 14px;                   /* Same size */
+    font-weight: 600;                  /* Bold like main menu */
+}
+
+/* Hover color for all menu and submenu links */
+.nav__menu a:hover,
+.nav__menu .submenu a:hover {
+    color: #c41d2d;  /* Dark red hover */
+}
+
