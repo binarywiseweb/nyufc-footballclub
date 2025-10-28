@@ -27864,3 +27864,34 @@ button,
     width: 190%; /* increase size on mobile */
   }
 }
+.menu-item-dropdown {
+  position: relative;
+}
+
+.submenu {
+  display: none; /* Hide submenu by default */
+  position: absolute;
+  top: 100%; /* Below parent */
+  left: 0;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show submenu on hover */
+.menu-item-dropdown:hover .submenu {
+  display: block;
+}
