@@ -27910,4 +27910,8 @@ button,
 #contact.contact-area {
   margin-top: -250px; /* adjust value as needed */
 }
+.rts-merch-section {
+    margin-top: -200px; /* move it 30px upwards */
+}
+
 
