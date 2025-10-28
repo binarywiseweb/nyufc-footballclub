@@ -27895,3 +27895,19 @@ button,
 .menu-item-dropdown:hover .submenu {
   display: block;
 }
+.market-description {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.market-description p {
+  margin-bottom: 15px;
+}
+#contact.contact-area {
+  margin-top: -250px; /* adjust value as needed */
+}
+
